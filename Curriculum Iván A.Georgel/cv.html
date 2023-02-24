@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum vitae</title>
+
+     <!--Link del ícono de la pestaña-->
+    <link rel="icon" type="image/x-icon" href="https://cdn.icon-icons.com/icons2/1485/PNG/512/cv_102350.png">
+
+
+    <!--Aca conecte la hoja de HTML con la de CSS-->
+    <link rel="stylesheet" href="cv.css">
+
+
+    <!--Acá pegue la tipografia que saque de "google fonts"-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    
+
+    <!--Link del icono de "Formación"-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <!--Link del Ícono de "Contacto"-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+
+    <!--Link del ícono de "Correo electronico"-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <!--Link del ícono de "Instagram"-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <!--Link del ícono de "Experiencia laboral"-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <!--Link dek ícono de "Aptitudes"-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    <!--Link del ícono de "Datos personales"-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+</head>
+
+<!--Puse el evento "onload" para decirle al usuario que la pagina ha cargado exitosamente-->
+<body onload="cargaBody()";>
+
+
+    <!--ACA agrege la imaguen de "RANDOM USER GENERATOR" y un texto alternativo en caso que no se pueda cargar la imagen-->
+    <!--Utilice el evento onMouseOver(que saque de w3schools)que ejecuta cuando pasamos la flecha del mouse sobre el elemento img y el evento onMouseOut se ejecuta cuando la flecha abandona el elemento, vuelve a su tamaño normal-->
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://randomuser.me/api/portraits/men/11.jpg" alt="No se pudo cargar la fotografía." 
+     heigth="150 px" width="150px">
+
+
+
+
+    <!--Dentro del div con la clase "container_1" coloque todos los datos personales-->
+
+    <div class="container_1">
+
+        <!--El elemento "span" lo use para insertar el icono-->
+
+        <h1><span class="material-symbols-outlined">person
+     </span> DATOS PERSONALES.</h1>
+        <ul>
+            <li><u>Nombre:</u> Ciro.</li>
+            <li><u>Apellido:</u> Di Marco.</li>
+            <li><u>Fecha de nacimento:</u>5/10/95</li>
+            <li><u>Dirección:</u> Aristides villanueva.</li>
+            <li><u>Provincia:</u>Mendoza.</li>
+        </ul>
+    </div>
+
+
+<!--
+
+    <!-Dentro del del div con la clase "container_2" coloque todas las formas de contactar a la persona-->
+
+    <div class="container_2">
+        
+        <!--El elemento "span" lo use para insertar el icono en cada forma de contactarlo-->
+        <!--Tambien utilicé el elemento "Lista desordenada" para organizar todas las formas de contacto-->
+
+        <h6>CONTACTO.</h6>
+
+        <li>
+            <span class="material-symbols-outlined">
+            call</span> <u>Número de telefono:</u> 0263-579845.
+        </li>
+
+        <li>
+            <span class="material-symbols-outlined">mail</span> <u>Correo electrónico:</u> cirodimarc@gmail.com
+        </li>
+
+        <li>
+            <span class="material-symbols-outlined">nest_heat_link_gen_3</span> <u>Instagram:</u> CiroDi_Marco.
+        </li>
+    </div>
+
+
+
+
+    <!--Dentro del div con la clase "container" coloque la formacion academica-->
+
+    <div class="container">
+
+        <!--El elemento "span" lo use para insertar el ícono en cada "Formación"-->
+
+        <h3><span class="material-symbols-outlined">
+            school</span> FORMACIÓN SECUNDARIA.</h3>
+
+        <P>Escuela secundaria: N° 4001 José Vicente Zapata.(2008-2012)</P>
+        
+        <h4><span class="material-symbols-outlined">school</span> FORMACIÓN UNIVERSITARIA.</h4>
+
+        <P>Técnico universitario en programación UTN de Mendoza. (2013-2015)</P>
+    </div>
+
+
+
+    <!--Dentro del div con la clase "container" coloque la experiencia laboral-->
+
+    <div class="container">
+
+        <!--El elemento "span" lo use para insertar el ícono-->
+
+        <h5><span class="material-symbols-outlined">work
+        </span> EXPERIENCIA LABORAL.</h5>
+
+        <p>Desde que egrese estuve trabajando para pequeñas empresas locales, también como freelance, pero desde que
+            comenzo la pandemia empece a trabajar de desarrollador front end, de forma remota para bodegas de mi
+            provincia como "Trivento" y "Zucardi", hasta hace unos 4 meses. </p>
+
+    </div>
+
+
+
+    <!--Dentro del div con la clase "container_5" coloque las aptitudes de la persona-->
+
+    <div class="container">
+
+        <!--El elemento "span" lo use para insertar el ícono-->
+        <!--Tambien use una lista desordenada para organizar las aptitudes-->
+
+        <h2><span class="material-symbols-outlined">
+            auto_awesome
+            </span> APTITUDES.</h2>
+        <ul>
+            <li>Resposable.</li>
+            <li>Trabajador.</li>
+            <li>Puntual.</li>
+            <li>Amable.</li>
+            <li>Muchas ganas de aprender.</li>
+
+        </ul>
+    </div>
+
+
+
+    <!--Dentro del div con la clase "container", coloque un elemento form para tener reunida toda la info que quiro enviar al servidor-->
+    
+    <div class="container">
+        <form id="formulario" action="" class="form">
+            <p2>SI LO DESEA ME PUEDE DAR UNA RESPUESTA MEDIANTE EL SIGUIENTE CUESTIONARIO: </p>
+
+            <div>
+                <input type="radio" name="cv" id="cv_contratado" value="1" checked>
+                <label for="cv_contacto">Nos contactaremos con usted. </label>
+            </div>
+            <div>
+                <input type="radio" name="cv" id="cv_pensaremos" value="2" checked>
+                <label for="cv_pensarlo">Vamos a pensarlo.</label>
+            </div>
+            <input type="submit" value="Enviar">
+
+        </form>
+
+        <!--Dentro del div con la clase container_3 inserte el botón con el que voy a saludar al usuario que lea mi curriculum-->
+        <div class="container_3">
+
+                
+            <h7 id="click_saludo">Antes de de cerrar la pagina, por favor, haga clic en este botón.</h>
+>
+            <button type="button" id="boton_saludo">click aquí</button>
+
+
+        </div>
+
+        
+    <!--Acá conecte mi hoja de HTML con la de Javascript -->
+     <script src="cv.js"></script>
+
+</body>
+
+
+
+</html>

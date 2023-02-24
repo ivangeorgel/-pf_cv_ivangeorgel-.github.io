@@ -1,0 +1,110 @@
+
+*{
+    font-family: 'Roboto Mono', monospace;;
+    font-size: 20px;
+}
+
+body{
+    background-color: rgb(66, 142, 145);
+    color:white;
+}
+
+p{
+font: 600px;
+}
+.img{
+    position:left;
+}
+/*p,h1,h2,h3,h4,h5,h6,ul,li{
+    font-weight: 100px;
+}*/
+.container_1{
+    font: 200px;
+
+    position: relative;
+    left:168px ;
+    bottom: 500px ; 
+    top:-200px;
+  
+   
+    margin-top:10px ;
+    margin-bottom:10px ;
+    margin-right:10px ;
+    margin-left:15px ;
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+
+    width:550px;
+
+    
+
+}
+
+
+.container_2{
+
+    position: relative;
+    bottom: 150px ; 
+
+
+    border: 2px solid black;
+    margin-top:10px ;
+    margin-bottom:10px ;
+    margin-right:10px ;
+    margin-left:15px ;
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+
+    width:350px;
+    height: 326px;
+}
+
+.container{
+    
+
+    position: relative;
+    left:508px ;
+    bottom: 570px ; 
+
+    
+    margin-top:10px ;
+    margin-bottom:10px ;
+    margin-right:10px ;
+    margin-left:15px ;
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+
+    width:550px;
+
+}
+
+
+
+.container_3{
+    position: relative;
+    left:-552px ;
+    bottom: 1377px ; 
+
+    
+    margin-top:1018px ;
+    margin-bottom:10px ;
+    margin-right:10px ;
+    margin-left:15px ;
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+
+    width:416px;
+
+}

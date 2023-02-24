@@ -1,0 +1,270 @@
+
+/**Aplique la misma tipografia para todo el documento html*/
+*{
+    font-family: 'Roboto Mono', monospace;;
+    font-size: 19px;
+}
+
+/*Aplique un tamaño de letra determinado y un subrayado para estos elementos*/
+h1,h2,h3,h4,h5,h6{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+/*Aplique un tamaño de letra para estos dos*/
+h7,p2{
+    font-size: 25px;
+
+}
+
+/*Al body le apique este color de fondo y negro a la tipogradía */
+body{
+    background-color: rgb(145 154 157);
+    color:black;
+    /*rgb(250, 245, 245);*/
+}
+
+/*La imagen la posicione a la izquierda*/
+.img{
+    position:left;
+}
+
+
+/*A los elementos container,container_1,containers_2 y container_3 les aplique un tamaño de padding,margin,position,width etc*/
+.container_1{
+  
+    position: relative;
+    left:168px ;
+    bottom: 500px ; 
+    top:-200px;
+  
+   
+    margin-top:10px ;
+    margin-bottom:10px ;
+    margin-right:10px ;
+    margin-left:15px ;
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+
+    width:550px;
+
+    
+
+}
+
+
+.container_2{
+    background-color: rgb(106 196 227 / 39%);
+
+    position: relative;
+    bottom: 150px ; 
+
+
+    border: 2px solid black;
+    margin-top:10px ;
+    margin-bottom:10px ;
+    margin-right:10px ;
+    margin-left:15px ;
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+
+    width:484px;
+    height: 326px;
+}
+
+.container{
+    position: relative;
+    left:586px ;
+    bottom: 570px ; 
+
+    
+    margin-top:10px ;
+    margin-bottom:10px ;
+    margin-right:10px ;
+    margin-left:15px ;
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+
+    width:550px;
+
+}
+
+
+.container_3{
+    position: relative;
+    left:-552px ;
+    bottom: 1562px ; 
+
+    
+    margin-top:1018px ;
+    margin-bottom:10px ;
+    margin-right:10px ;
+    margin-left:15px ;
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+
+    width:416px;
+
+}
+
+
+
+
+/*Las siguientes animaciones las saque de un video de youtube y las fuí modificando de acuerdo a mis variables*/
+
+
+.container_1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .container_1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .container_1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(240deg 100% 99% / 54%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  .container_1 {
+    position: relative;
+    
+  }
+  
+  
+  @media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+  }
+
+
+
+  
+  .container_3::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .container_3:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .container_3::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background:hsl(240deg 100% 99% / 54%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  .container_3 {
+    position: relative;
+    
+  }
+  
+  
+  @media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+  }
+
+
+  .container::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .container:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .container::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background:hsl(240deg 100% 99% / 54%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  .container{
+    position: relative;
+    
+  }
+  
+  
+  @media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+  }
+
+
+
+  .container_2::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .container_2:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .container_2::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background:hsl(240deg 100% 99% / 54%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  .container_2 {
+    position: relative;
+    
+  }
+  
+  
+  @media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+  }
+
+
+
+
+
+
